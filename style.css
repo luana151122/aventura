@@ -10,7 +10,25 @@ body{
 }
 
 button {
-    background-color: aquamarine;
-    color: brown;
-    font-family: "Bai Jamjuree", sans-serif;
+    background-color: antiquewhite;
+    color: aquamarine;
+    font-family: "Bai jamjuree", sans-serif;
 }
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 98%;
+}
+
+img {
+    max-width: 98%;
+}
+
